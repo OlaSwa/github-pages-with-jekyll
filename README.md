@@ -1,13 +1,12 @@
-# Your GitHub Learning Lab Repository for GitHub Pages
+# Tufte CSS + Hugo
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. 
+This is the template for my course-specific websites.
 
-Oh! I haven't introduced myself...
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+## CSS provenance and credit
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+[Tufte's CSS](https://github.com/edwardtufte/tufte-css) is relatively basic and doesn't deal with headers and footers and other basic website elements. The [Tufte Jekyll theme](https://github.com/clayh53/tufte-jekyll) has all these, but it's written for Jekyll (*and* it's written in Sass).
 
-I'll meet you over there, can't wait to get started!
+So, I went to [the demo page](https://clayh53.github.io/tufte-jekyll/), copied [the compiled CSS file](https://clayh53.github.io/tufte-jekyll/css/tufte.css) there, and used that as my base CSS file. It probably still has a lot of Jekyll-specific things that I don't use, but ¯\\\_(ツ)\_/¯.
 
-This repository is licensed under [MIT](../LICENSE) (c) 2019 GitHub, Inc.
+And *then* I pilfered from [John Martin's excellent modifications](https://johndmart.in/) and made my own.
